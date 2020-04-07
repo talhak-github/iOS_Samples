@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC025F5E1BD8747F00DA616E /* blueCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = BC025F5D1BD8747F00DA616E /* blueCircle.png */; settings = {ASSET_TAGS = (); }; };
+		BC025F601BD8E38F00DA616E /* Gear.png in Resources */ = {isa = PBXBuildFile; fileRef = BC025F5F1BD8E38F00DA616E /* Gear.png */; settings = {ASSET_TAGS = (); }; };
+		BC69B7B11B3AFD7A0035CEE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC69B7B01B3AFD7A0035CEE0 /* main.m */; };
+		BC69B7B41B3AFD7A0035CEE0 /* SNRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC69B7B31B3AFD7A0035CEE0 /* SNRAppDelegate.m */; };
+		BC69B7BC1B3AFD7A0035CEE0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC69B7BB1B3AFD7A0035CEE0 /* Images.xcassets */; };
+		BC69B7CB1B3AFD7A0035CEE0 /* SunriseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC69B7CA1B3AFD7A0035CEE0 /* SunriseTests.m */; };
+		BC69B7D71B3AFEFA0035CEE0 /* SNRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC69B7D51B3AFEFA0035CEE0 /* SNRViewController.m */; };
+		BC69B7D81B3AFEFA0035CEE0 /* SNRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC69B7D61B3AFEFA0035CEE0 /* SNRViewController.xib */; };
+		BC69B7DA1B3B04AB0035CEE0 /* sunrise_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BC69B7D91B3B04AB0035CEE0 /* sunrise_logo.png */; };
+		BC69B7DC1B3B32DB0035CEE0 /* CalendarCellNib.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC69B7DB1B3B32DB0035CEE0 /* CalendarCellNib.xib */; };
+		BC69B8F21B40C1F30035CEE0 /* SNREvent.m in Sources */ = {isa = PBXBuildFile; fileRef = BC69B8F11B40C1F30035CEE0 /* SNREvent.m */; };
+		BC69B8F91B4363210035CEE0 /* SNRCustomAgendaViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC69B8F81B4363210035CEE0 /* SNRCustomAgendaViewCell.xib */; };
+		BC69B8FC1B4363570035CEE0 /* SNRCustomAgendaViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC69B8FB1B4363570035CEE0 /* SNRCustomAgendaViewCell.m */; };
+		BC69B9361B4421C10035CEE0 /* concert.png in Resources */ = {isa = PBXBuildFile; fileRef = BC69B9341B4421C10035CEE0 /* concert.png */; };
+		BC69B9371B4421C10035CEE0 /* doctor.png in Resources */ = {isa = PBXBuildFile; fileRef = BC69B9351B4421C10035CEE0 /* doctor.png */; };
+		BCBA5D281B4C019700937118 /* SNRWeatherObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBA5D271B4C019700937118 /* SNRWeatherObject.m */; };
+		BCBA5D6F1B4FE95600937118 /* food.png in Resources */ = {isa = PBXBuildFile; fileRef = BCBA5D6B1B4FE95600937118 /* food.png */; };
+		BCBA5D701B4FE95600937118 /* meeting.png in Resources */ = {isa = PBXBuildFile; fileRef = BCBA5D6C1B4FE95600937118 /* meeting.png */; };
+		BCBA5D711B4FE95600937118 /* tv.png in Resources */ = {isa = PBXBuildFile; fileRef = BCBA5D6D1B4FE95600937118 /* tv.png */; };
+		BCBA5D721B4FE95600937118 /* workout.png in Resources */ = {isa = PBXBuildFile; fileRef = BCBA5D6E1B4FE95600937118 /* workout.png */; };
+		BCBA5D741B4FE99900937118 /* vacation.png in Resources */ = {isa = PBXBuildFile; fileRef = BCBA5D731B4FE99900937118 /* vacation.png */; };
+		BCBA5D761B4FE9CC00937118 /* party.png in Resources */ = {isa = PBXBuildFile; fileRef = BCBA5D751B4FE9CC00937118 /* party.png */; };
+		BCBA5D781B4FFC7400937118 /* blue_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = BCBA5D771B4FFC7400937118 /* blue_circle.png */; };
+		BCBA5D7B1B519CAC00937118 /* SNRCalendarViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBA5D7A1B519CAC00937118 /* SNRCalendarViewHeader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC69B7C51B3AFD7A0035CEE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC69B7A31B3AFD7A0035CEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC69B7AA1B3AFD7A0035CEE0;
+			remoteInfo = Sunrise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC025F5D1BD8747F00DA616E /* blueCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueCircle.png; sourceTree = "<group>"; };
+		BC025F5F1BD8E38F00DA616E /* Gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gear.png; sourceTree = "<group>"; };
+		BC69B7AB1B3AFD7A0035CEE0 /* Sunrise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sunrise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC69B7AF1B3AFD7A0035CEE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC69B7B01B3AFD7A0035CEE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC69B7B21B3AFD7A0035CEE0 /* SNRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNRAppDelegate.h; sourceTree = "<group>"; };
+		BC69B7B31B3AFD7A0035CEE0 /* SNRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNRAppDelegate.m; sourceTree = "<group>"; };
+		BC69B7BB1B3AFD7A0035CEE0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC69B7C41B3AFD7A0035CEE0 /* SunriseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunriseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC69B7C91B3AFD7A0035CEE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC69B7CA1B3AFD7A0035CEE0 /* SunriseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SunriseTests.m; sourceTree = "<group>"; };
+		BC69B7D41B3AFEFA0035CEE0 /* SNRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNRViewController.h; sourceTree = "<group>"; };
+		BC69B7D51B3AFEFA0035CEE0 /* SNRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNRViewController.m; sourceTree = "<group>"; };
+		BC69B7D61B3AFEFA0035CEE0 /* SNRViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SNRViewController.xib; sourceTree = "<group>"; };
+		BC69B7D91B3B04AB0035CEE0 /* sunrise_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunrise_logo.png; sourceTree = "<group>"; };
+		BC69B7DB1B3B32DB0035CEE0 /* CalendarCellNib.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarCellNib.xib; sourceTree = "<group>"; };
+		BC69B8F01B40C1F30035CEE0 /* SNREvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNREvent.h; sourceTree = "<group>"; };
+		BC69B8F11B40C1F30035CEE0 /* SNREvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNREvent.m; sourceTree = "<group>"; };
+		BC69B8F81B4363210035CEE0 /* SNRCustomAgendaViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SNRCustomAgendaViewCell.xib; sourceTree = "<group>"; };
+		BC69B8FA1B4363570035CEE0 /* SNRCustomAgendaViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNRCustomAgendaViewCell.h; sourceTree = "<group>"; };
+		BC69B8FB1B4363570035CEE0 /* SNRCustomAgendaViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNRCustomAgendaViewCell.m; sourceTree = "<group>"; };
+		BC69B9341B4421C10035CEE0 /* concert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = concert.png; sourceTree = "<group>"; };
+		BC69B9351B4421C10035CEE0 /* doctor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doctor.png; sourceTree = "<group>"; };
+		BCBA5D261B4C019700937118 /* SNRWeatherObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNRWeatherObject.h; sourceTree = "<group>"; };
+		BCBA5D271B4C019700937118 /* SNRWeatherObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNRWeatherObject.m; sourceTree = "<group>"; };
+		BCBA5D6B1B4FE95600937118 /* food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food.png; sourceTree = "<group>"; };
+		BCBA5D6C1B4FE95600937118 /* meeting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meeting.png; sourceTree = "<group>"; };
+		BCBA5D6D1B4FE95600937118 /* tv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tv.png; sourceTree = "<group>"; };
+		BCBA5D6E1B4FE95600937118 /* workout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = workout.png; sourceTree = "<group>"; };
+		BCBA5D731B4FE99900937118 /* vacation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vacation.png; sourceTree = "<group>"; };
+		BCBA5D751B4FE9CC00937118 /* party.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = party.png; sourceTree = "<group>"; };
+		BCBA5D771B4FFC7400937118 /* blue_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_circle.png; sourceTree = "<group>"; };
+		BCBA5D791B519CAC00937118 /* SNRCalendarViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNRCalendarViewHeader.h; sourceTree = "<group>"; };
+		BCBA5D7A1B519CAC00937118 /* SNRCalendarViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNRCalendarViewHeader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC69B7A81B3AFD7A0035CEE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC69B7C11B3AFD7A0035CEE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC69B7A21B3AFD7A0035CEE0 = {
+			isa = PBXGroup;
+			children = (
+				BC69B7AD1B3AFD7A0035CEE0 /* Sunrise */,
+				BC69B7C71B3AFD7A0035CEE0 /* SunriseTests */,
+				BC69B7AC1B3AFD7A0035CEE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC69B7AC1B3AFD7A0035CEE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC69B7AB1B3AFD7A0035CEE0 /* Sunrise.app */,
+				BC69B7C41B3AFD7A0035CEE0 /* SunriseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC69B7AD1B3AFD7A0035CEE0 /* Sunrise */ = {
+			isa = PBXGroup;
+			children = (
+				BC69B97E1B46E9EE0035CEE0 /* Main Application */,
+				BC69B97D1B46E9A50035CEE0 /* Custom Views - Agenda View Cell & Calendar View Cell */,
+				BC69B97B1B46E9360035CEE0 /* Model - Data */,
+				BC69B97A1B457CF80035CEE0 /* Image Assets */,
+				BC69B7B21B3AFD7A0035CEE0 /* SNRAppDelegate.h */,
+				BC69B7B31B3AFD7A0035CEE0 /* SNRAppDelegate.m */,
+				BC69B7BB1B3AFD7A0035CEE0 /* Images.xcassets */,
+				BC69B7AE1B3AFD7A0035CEE0 /* Supporting Files */,
+			);
+			path = Sunrise;
+			sourceTree = "<group>";
+		};
+		BC69B7AE1B3AFD7A0035CEE0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC69B7AF1B3AFD7A0035CEE0 /* Info.plist */,
+				BC69B7B01B3AFD7A0035CEE0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC69B7C71B3AFD7A0035CEE0 /* SunriseTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC69B7CA1B3AFD7A0035CEE0 /* SunriseTests.m */,
+				BC69B7C81B3AFD7A0035CEE0 /* Supporting Files */,
+			);
+			path = SunriseTests;
+			sourceTree = "<group>";
+		};
+		BC69B7C81B3AFD7A0035CEE0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC69B7C91B3AFD7A0035CEE0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC69B97A1B457CF80035CEE0 /* Image Assets */ = {
+			isa = PBXGroup;
+			children = (
+				BC025F5F1BD8E38F00DA616E /* Gear.png */,
+				BC025F5D1BD8747F00DA616E /* blueCircle.png */,
+				BCBA5D751B4FE9CC00937118 /* party.png */,
+				BCBA5D771B4FFC7400937118 /* blue_circle.png */,
+				BCBA5D731B4FE99900937118 /* vacation.png */,
+				BCBA5D6B1B4FE95600937118 /* food.png */,
+				BCBA5D6C1B4FE95600937118 /* meeting.png */,
+				BCBA5D6D1B4FE95600937118 /* tv.png */,
+				BCBA5D6E1B4FE95600937118 /* workout.png */,
+				BC69B7D91B3B04AB0035CEE0 /* sunrise_logo.png */,
+				BC69B9341B4421C10035CEE0 /* concert.png */,
+				BC69B9351B4421C10035CEE0 /* doctor.png */,
+			);
+			name = "Image Assets";
+			sourceTree = "<group>";
+		};
+		BC69B97B1B46E9360035CEE0 /* Model - Data */ = {
+			isa = PBXGroup;
+			children = (
+				BC69B8F01B40C1F30035CEE0 /* SNREvent.h */,
+				BC69B8F11B40C1F30035CEE0 /* SNREvent.m */,
+				BCBA5D261B4C019700937118 /* SNRWeatherObject.h */,
+				BCBA5D271B4C019700937118 /* SNRWeatherObject.m */,
+			);
+			name = "Model - Data";
+			sourceTree = "<group>";
+		};
+		BC69B97D1B46E9A50035CEE0 /* Custom Views - Agenda View Cell & Calendar View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BC69B8FA1B4363570035CEE0 /* SNRCustomAgendaViewCell.h */,
+				BC69B8FB1B4363570035CEE0 /* SNRCustomAgendaViewCell.m */,
+				BC69B8F81B4363210035CEE0 /* SNRCustomAgendaViewCell.xib */,
+				BC69B7DB1B3B32DB0035CEE0 /* CalendarCellNib.xib */,
+			);
+			name = "Custom Views - Agenda View Cell & Calendar View Cell";
+			sourceTree = "<group>";
+		};
+		BC69B97E1B46E9EE0035CEE0 /* Main Application */ = {
+			isa = PBXGroup;
+			children = (
+				BC69B7D41B3AFEFA0035CEE0 /* SNRViewController.h */,
+				BC69B7D51B3AFEFA0035CEE0 /* SNRViewController.m */,
+				BC69B7D61B3AFEFA0035CEE0 /* SNRViewController.xib */,
+				BCBA5D791B519CAC00937118 /* SNRCalendarViewHeader.h */,
+				BCBA5D7A1B519CAC00937118 /* SNRCalendarViewHeader.m */,
+			);
+			name = "Main Application";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC69B7AA1B3AFD7A0035CEE0 /* Sunrise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC69B7CE1B3AFD7A0035CEE0 /* Build configuration list for PBXNativeTarget "Sunrise" */;
+			buildPhases = (
+				BC69B7A71B3AFD7A0035CEE0 /* Sources */,
+				BC69B7A81B3AFD7A0035CEE0 /* Frameworks */,
+				BC69B7A91B3AFD7A0035CEE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sunrise;
+			productName = Sunrise;
+			productReference = BC69B7AB1B3AFD7A0035CEE0 /* Sunrise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC69B7C31B3AFD7A0035CEE0 /* SunriseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC69B7D11B3AFD7A0035CEE0 /* Build configuration list for PBXNativeTarget "SunriseTests" */;
+			buildPhases = (
+				BC69B7C01B3AFD7A0035CEE0 /* Sources */,
+				BC69B7C11B3AFD7A0035CEE0 /* Frameworks */,
+				BC69B7C21B3AFD7A0035CEE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC69B7C61B3AFD7A0035CEE0 /* PBXTargetDependency */,
+			);
+			name = SunriseTests;
+			productName = SunriseTests;
+			productReference = BC69B7C41B3AFD7A0035CEE0 /* SunriseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC69B7A31B3AFD7A0035CEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Talha;
+				TargetAttributes = {
+					BC69B7AA1B3AFD7A0035CEE0 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 57UBR8UWCL;
+					};
+					BC69B7C31B3AFD7A0035CEE0 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = BC69B7AA1B3AFD7A0035CEE0;
+					};
+				};
+			};
+			buildConfigurationList = BC69B7A61B3AFD7A0035CEE0 /* Build configuration list for PBXProject "Sunrise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC69B7A21B3AFD7A0035CEE0;
+			productRefGroup = BC69B7AC1B3AFD7A0035CEE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC69B7AA1B3AFD7A0035CEE0 /* Sunrise */,
+				BC69B7C31B3AFD7A0035CEE0 /* SunriseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC69B7A91B3AFD7A0035CEE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC69B7D81B3AFEFA0035CEE0 /* SNRViewController.xib in Resources */,
+				BCBA5D781B4FFC7400937118 /* blue_circle.png in Resources */,
+				BCBA5D701B4FE95600937118 /* meeting.png in Resources */,
+				BC69B7DC1B3B32DB0035CEE0 /* CalendarCellNib.xib in Resources */,
+				BC69B9361B4421C10035CEE0 /* concert.png in Resources */,
+				BCBA5D6F1B4FE95600937118 /* food.png in Resources */,
+				BCBA5D711B4FE95600937118 /* tv.png in Resources */,
+				BC69B9371B4421C10035CEE0 /* doctor.png in Resources */,
+				BC69B7DA1B3B04AB0035CEE0 /* sunrise_logo.png in Resources */,
+				BCBA5D741B4FE99900937118 /* vacation.png in Resources */,
+				BC025F601BD8E38F00DA616E /* Gear.png in Resources */,
+				BC69B7BC1B3AFD7A0035CEE0 /* Images.xcassets in Resources */,
+				BCBA5D721B4FE95600937118 /* workout.png in Resources */,
+				BCBA5D761B4FE9CC00937118 /* party.png in Resources */,
+				BC025F5E1BD8747F00DA616E /* blueCircle.png in Resources */,
+				BC69B8F91B4363210035CEE0 /* SNRCustomAgendaViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC69B7C21B3AFD7A0035CEE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC69B7A71B3AFD7A0035CEE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC69B8F21B40C1F30035CEE0 /* SNREvent.m in Sources */,
+				BC69B7D71B3AFEFA0035CEE0 /* SNRViewController.m in Sources */,
+				BCBA5D7B1B519CAC00937118 /* SNRCalendarViewHeader.m in Sources */,
+				BC69B7B41B3AFD7A0035CEE0 /* SNRAppDelegate.m in Sources */,
+				BC69B8FC1B4363570035CEE0 /* SNRCustomAgendaViewCell.m in Sources */,
+				BCBA5D281B4C019700937118 /* SNRWeatherObject.m in Sources */,
+				BC69B7B11B3AFD7A0035CEE0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC69B7C01B3AFD7A0035CEE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC69B7CB1B3AFD7A0035CEE0 /* SunriseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC69B7C61B3AFD7A0035CEE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC69B7AA1B3AFD7A0035CEE0 /* Sunrise */;
+			targetProxy = BC69B7C51B3AFD7A0035CEE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BC69B7CC1B3AFD7A0035CEE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC69B7CD1B3AFD7A0035CEE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC69B7CF1B3AFD7A0035CEE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Sunrise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		BC69B7D01B3AFD7A0035CEE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Sunrise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		BC69B7D21B3AFD7A0035CEE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SunriseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sunrise.app/Sunrise";
+			};
+			name = Debug;
+		};
+		BC69B7D31B3AFD7A0035CEE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SunriseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sunrise.app/Sunrise";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC69B7A61B3AFD7A0035CEE0 /* Build configuration list for PBXProject "Sunrise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC69B7CC1B3AFD7A0035CEE0 /* Debug */,
+				BC69B7CD1B3AFD7A0035CEE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC69B7CE1B3AFD7A0035CEE0 /* Build configuration list for PBXNativeTarget "Sunrise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC69B7CF1B3AFD7A0035CEE0 /* Debug */,
+				BC69B7D01B3AFD7A0035CEE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC69B7D11B3AFD7A0035CEE0 /* Build configuration list for PBXNativeTarget "SunriseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC69B7D21B3AFD7A0035CEE0 /* Debug */,
+				BC69B7D31B3AFD7A0035CEE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC69B7A31B3AFD7A0035CEE0 /* Project object */;
+}

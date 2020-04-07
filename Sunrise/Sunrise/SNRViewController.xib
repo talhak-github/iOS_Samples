@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SNRViewController">
+            <connections>
+                <outlet property="agendaView" destination="Vvz-cE-lEt" id="Ah4-YF-oSw"/>
+                <outlet property="calendarView" destination="Xnz-hi-18E" id="IMu-OL-EkI"/>
+                <outlet property="calendarViewHeight" destination="BQl-dC-5Mc" id="7Hz-ql-yak"/>
+                <outlet property="navBar" destination="ImU-ri-BCH" id="cPC-lt-nPl"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ImU-ri-BCH">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="20k-g2-JeD"/>
+                    </constraints>
+                    <items>
+                        <navigationItem title="Title" id="0hO-pA-mEj">
+                            <barButtonItem key="rightBarButtonItem" title="+" id="N16-xM-lJj"/>
+                        </navigationItem>
+                    </items>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="20k-g2-JeD"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="20k-g2-JeD"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="no4-Tm-ggD"/>
+                    </connections>
+                </navigationBar>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sunrise_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="tet-k3-5ha">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="tet-k3-5ha" secondAttribute="height" multiplier="23:22" id="E4V-UF-tBF"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="E4V-UF-tBF"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="E4V-UF-tBF"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Vvz-cE-lEt">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="5sU-Kf-fBP"/>
+                        <outlet property="delegate" destination="-1" id="ZB5-F5-NhH"/>
+                    </connections>
+                </tableView>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Xnz-hi-18E">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="119" id="BQl-dC-5Mc">
+                            <variation key="heightClass=regular-widthClass=compact" constant="100"/>
+                        </constraint>
+                    </constraints>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="BeP-OA-2OV">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="50" height="50"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="BQl-dC-5Mc"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="BQl-dC-5Mc"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="UvA-fN-9U5"/>
+                        <outlet property="delegate" destination="-1" id="dEe-sN-sYW"/>
+                    </connections>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Xnz-hi-18E" firstAttribute="top" secondItem="ImU-ri-BCH" secondAttribute="bottom" constant="13" id="1qc-oo-9GG"/>
+                <constraint firstAttribute="trailing" secondItem="Xnz-hi-18E" secondAttribute="trailing" id="3Gq-rX-Y4o"/>
+                <constraint firstAttribute="trailing" secondItem="Vvz-cE-lEt" secondAttribute="trailing" constant="200" id="G45-jV-w8k">
+                    <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
+                </constraint>
+                <constraint firstItem="tet-k3-5ha" firstAttribute="top" secondItem="ImU-ri-BCH" secondAttribute="top" id="JgP-Oz-ZOG"/>
+                <constraint firstItem="ImU-ri-BCH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="M1L-v6-apT"/>
+                <constraint firstAttribute="bottom" secondItem="Vvz-cE-lEt" secondAttribute="bottom" id="MPy-0a-dvk"/>
+                <constraint firstItem="Vvz-cE-lEt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="jmY-FH-dKJ"/>
+                <constraint firstItem="Vvz-cE-lEt" firstAttribute="top" secondItem="Xnz-hi-18E" secondAttribute="bottom" constant="204" id="laG-y6-7Q1">
+                    <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
+                </constraint>
+                <constraint firstItem="tet-k3-5ha" firstAttribute="centerX" secondItem="ImU-ri-BCH" secondAttribute="centerX" constant="-4" id="myf-lE-yvJ"/>
+                <constraint firstAttribute="trailing" secondItem="ImU-ri-BCH" secondAttribute="trailing" id="oCl-zd-Nsm"/>
+                <constraint firstItem="tet-k3-5ha" firstAttribute="height" secondItem="ImU-ri-BCH" secondAttribute="height" id="soa-pY-P8O"/>
+                <constraint firstItem="Xnz-hi-18E" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="utc-xr-3Wv"/>
+                <constraint firstItem="ImU-ri-BCH" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="zhP-az-gbZ"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="ImU-ri-BCH"/>
+                    <exclude reference="tet-k3-5ha"/>
+                    <exclude reference="Vvz-cE-lEt"/>
+                    <exclude reference="Xnz-hi-18E"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="M1L-v6-apT"/>
+                    <exclude reference="oCl-zd-Nsm"/>
+                    <exclude reference="zhP-az-gbZ"/>
+                    <exclude reference="JgP-Oz-ZOG"/>
+                    <exclude reference="myf-lE-yvJ"/>
+                    <exclude reference="soa-pY-P8O"/>
+                    <exclude reference="G45-jV-w8k"/>
+                    <exclude reference="MPy-0a-dvk"/>
+                    <exclude reference="jmY-FH-dKJ"/>
+                    <exclude reference="laG-y6-7Q1"/>
+                    <exclude reference="1qc-oo-9GG"/>
+                    <exclude reference="3Gq-rX-Y4o"/>
+                    <exclude reference="utc-xr-3Wv"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="ImU-ri-BCH"/>
+                    <include reference="tet-k3-5ha"/>
+                    <include reference="Vvz-cE-lEt"/>
+                    <include reference="Xnz-hi-18E"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="M1L-v6-apT"/>
+                    <include reference="oCl-zd-Nsm"/>
+                    <include reference="zhP-az-gbZ"/>
+                    <include reference="JgP-Oz-ZOG"/>
+                    <include reference="myf-lE-yvJ"/>
+                    <include reference="soa-pY-P8O"/>
+                    <include reference="G45-jV-w8k"/>
+                    <include reference="MPy-0a-dvk"/>
+                    <include reference="jmY-FH-dKJ"/>
+                    <include reference="laG-y6-7Q1"/>
+                    <include reference="1qc-oo-9GG"/>
+                    <include reference="3Gq-rX-Y4o"/>
+                    <include reference="utc-xr-3Wv"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+    <resources>
+        <image name="sunrise_logo.png" width="1024" height="1024"/>
+    </resources>
+</document>
